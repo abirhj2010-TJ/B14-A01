@@ -241,3 +241,62 @@ nav ul li a {
   padding: 0.8rem 2rem;
   font-weight: 600;
 }
+
+/* footer styles */
+footer 
+{
+    background-color: #0d1b2a;
+    height: 30vh;
+    padding: 2rem 8% 0;
+}
+
+footer hr
+{
+    opacity: 0.3;
+}
+.footer-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.right-footer-content h3
+{
+    color: #575757;
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.right-footer-content a img
+{
+    width: 2rem;
+    margin-right: 0.75rem;
+}
+
+.right-footer-content div
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    gap: 1rem;
+}
+
+.footer-rights
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.footer-rights div a 
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
+    margin-right: 1rem;
+}
