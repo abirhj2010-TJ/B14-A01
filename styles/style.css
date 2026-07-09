@@ -5,14 +5,23 @@
 
 body {
   font-family: "Inter", sans-serif;
+  max-width: 1580px;
+  margin: 0 auto;
 }
 
 /* common styles */
 section {
-  margin: 5rem 8%;
+  margin: 7rem 8%;
 }
-.small-text-color {
+.small-text {
   color: #575757;
+  font-size: 0.75rem;
+}
+
+.card-subtitle {
+  color: #2563eb;
+  font-weight: 500;
+  font-size: 0.75rem;
 }
 
 .btn-primary {
@@ -91,10 +100,42 @@ nav ul li a {
 .banner-content div p {
   font-weight: 400;
   font-size: 1rem;
-  color: rgba(255, 255, 255, 0.8)
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .banner-btn {
   padding: 1.2rem 3rem;
   font-size: 1.1rem;
+}
+
+/* speaker section styles */
+.speakers h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.2rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.card {
+  border-radius: 0.75rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+}
+
+.card div {
+  padding: 1.5rem;
+}
+
+.card h3 {
+  margin: 0.8rem 0;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 0.75rem 0.75rem 0 0;
 }
