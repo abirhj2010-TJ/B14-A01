@@ -1,0 +1,14 @@
+Create a "Venue" section for the DevConf 2026 landing page.
+
+Style requirements are given below: 
+1. white background, black headings, inter font, no gradients or shadows will be present
+2. Use plain HTML and CSS only (beginner level)— no frameworks or libraries, no javascript 
+3. Use CSS Grid for layout (2 columns: details on the left, image on the right) 
+
+Contents are: 
+1. Heading: "Venue" 
+2. Address and short description of the location 
+3. 2-3 practical details (parking, nearest transit, accessibility info) 
+4. A placeholder for venue image on the right 
+
+
