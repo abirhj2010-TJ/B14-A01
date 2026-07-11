@@ -7,7 +7,7 @@ Style requirements are given below:
 
 Contents are: 
 1. Heading: "Venue" 
-2. Address and short description of the location 
+2. A real address and short description of the location 
 3. 2-3 practical details (parking, nearest transit, accessibility info) 
 4. A placeholder for venue image on the right 
 
