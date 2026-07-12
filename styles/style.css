@@ -351,11 +351,17 @@ footer hr {
 .footer-rights {
   display: flex;
   align-items: center;
-  flex-direction: column;
-  gap: 10px;
+  gap: 1rem;
   color: rgba(255, 255, 255, 0.4);
   font-size: 0.75rem;
   margin-top: 0.5rem;
+}
+
+.footer-term-policy
+{
+  margin-left: auto;
+  display: flex;
+  gap: 1rem;
 }
 
 
@@ -363,7 +369,5 @@ footer hr {
 {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.4);
-  margin-right: 5px;
-
 }
 
